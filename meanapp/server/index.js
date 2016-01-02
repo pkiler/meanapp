@@ -26,7 +26,8 @@ app.use('/hello', function(req, res, next) {
 });
 
 // Connect to MongoDB
-mongoose.connect('mongodb://root:alEFhpCzoD65@ec2-52-32-106-29.us-west-2.compute.amazonaws.com:27017/meanapp');
+mongoose.connect('mongodb://root:q6zxvxaK0JMi@ec2-52-34-103-161.us-west-2.compute.amazonaws.com
+:27017/meanapp');
 mongoose.connection.once('open', function() {
 
 	// Load the models.
