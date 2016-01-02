@@ -26,7 +26,8 @@ app.use('/hello', function(req, res, next) {
 });
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost/meanapp');
+mongoose.connect('mongodb://pierrekarl/123456@ec2-52-32-106-29.us-west-2.compute.amazonaws.com
+:27017/meanapp');
 mongoose.connection.once('open', function() {
 
 	// Load the models.
